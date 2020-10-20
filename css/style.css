@@ -158,6 +158,31 @@ h1.team-h1 {
     width: 30px;
   }
   
+  .client-testimonial-carousel .owl-dots {
+    text-align: center;
+    margin-top: 25px;
+  }
   
+  .single-testimonial-item {
+    position: relative;
+    box-shadow: 0 0 2px #dadfd3;
+    margin: 2px;
+    padding: 20px;
+    font-style: italic;
+    padding-left: 85px;
+  }
+  
+  .single-testimonial-item:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f10e";
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    font-size: 20px;
+    color: #cc5897;
+    line-height: 30px;
+    margin-top: -15px;
+  }
   
   
