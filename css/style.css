@@ -208,4 +208,13 @@ h1.team-h1 {
     margin-top: 5px;
   }
   
-  
+  .center { 
+    text-align: center; 
+    width: 100%; 
+} 
+h3{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
