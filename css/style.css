@@ -80,5 +80,29 @@ h1.team-h1 {
   .team-photo:hover {
     transform: scale(0.9);
     cursor: pointer;
+  }
+  /* code for phone layout */
+@media (max-width: 850px) {
+    .team-member {
+      width: 25%;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .team-member {
+      float: none;
+      display: block;
+      margin: 50px auto;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .team-member h3,
+    .team-member span {
+      margin: 15px auto;
+    }
   }  
 
