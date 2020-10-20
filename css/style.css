@@ -1,0 +1,32 @@
+h1.team-h1 {
+    margin: 0;
+    position: absolute;
+    top: -16px;
+    text-align: center;
+    left: 40%;
+  
+    font-style: italic;
+    background-color: white;
+    padding: 0px 20px;
+    color: #222;
+  }
+  
+  .cf:before,
+  .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  
+  .cf:after {
+    clear: both;
+  }
+  
+  /**
+     * For IE 6/7 only
+     * Include this rule to trigger hasLayout and contain floats.
+     */
+  .cf {
+    *zoom: 1;
+  }
+  
+
