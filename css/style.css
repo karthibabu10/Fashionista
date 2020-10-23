@@ -221,3 +221,10 @@ p {
   left: 40%;
   transform: translate(-50%, -50%);
 }
+
+.contact {
+  position: absolute;
+  margin-left: 35px;
+  padding-left: 10px;
+  font-size: large;
+}
